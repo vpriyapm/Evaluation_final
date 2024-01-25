@@ -15,3 +15,6 @@ int main() {
     
     return 0;
 }
+a=10;
+b=2;
+a+b=c:
