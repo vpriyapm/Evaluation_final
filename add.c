@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2,num3 , mult;
+    int num1, num2,num3 , sum;
     
     printf("Enter the first number: ");
     scanf("%d", &num1);
@@ -12,9 +12,9 @@ int main() {
     printf("Enter the third number: ");
     scanf("%d", &num3); 
 
-    mult= num1 * num 2* num3;
+    sum = num1 + num2 + num3 
     
-    printf("The multiplication of %d and %d and %d is %d.", num1, num2, num3, mult);
+    printf("The multiplication of %d and %d and %d is %d.", num1, num2, num3, sum);
     
     return 0;
 }
