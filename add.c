@@ -10,8 +10,10 @@ int main() {
     scanf("%d", &num2);
     
     sum = num1 + num2;
+    diff=num1-num2;
     
     printf("The sum of %d and %d is %d.", num1, num2, sum);
+    printf("The difference of %d and %d", num1,num2,difference);
     
     return 0;
 }
