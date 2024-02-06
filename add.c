@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &num2);
 
     printf("Enter the third number: ");
-    scanf("%d", &num3);
+    scanf("%d", &num3); 
 
     mult= num1 * num 2* num3;
     
