@@ -2,7 +2,7 @@
 
 int main() {
 <<<<<<< HEAD
-    int num1, num2, divide;
+    int num1, num2, multiply;
 =======
     int num1, num2, mul;
 >>>>>>> 4c851c3364e0e382d97b98fdbd4ca3761b725f22
