@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main() { HEAD
     int num1, num2, num3 ;
     
     printf("Enter the first number: ");
