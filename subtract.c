@@ -9,9 +9,9 @@ int main() {
     printf("Enter the second number: ");
     scanf("%d", &num2);
     
-    diff = num1 + num2;
+    diffe = num1 + num2;
     
-    printf("The diff of %d and %d is %d.", num1, num2, diff);
+    printf("The diff of %d and %d is %d.", num1, num2, diffe);
     
     return 0;
 }
