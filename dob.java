@@ -4,4 +4,8 @@ public class Main {
     System.out.println("My date of birth is " + dob);
   }
 }
+<<<<<<< HEAD
 add jan
+=======
+add 19+1
+>>>>>>> 626e282886cb9e363d4f34c744d23e3679992545
