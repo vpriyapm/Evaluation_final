@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, sum;
+<<<<<<< HEAD
+    int num1, num2, multiply;
+=======
+    int num1, num2, mul;
+>>>>>>> 4c851c3364e0e382d97b98fdbd4ca3761b725f22
     
     printf("Enter the first number: ");
     scanf("%d", &num1);
@@ -13,5 +17,5 @@ int main() {
     
     printf("The sum of %d and %d is %d.", num1, num2, sum);
     
-    return 0;
+    return 1;
 }
