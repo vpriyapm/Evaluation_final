@@ -1,0 +1,30 @@
+Write a  C program to find the LCM of two numbers.
+
+#include <stdio.h>
+
+// Function to calculate the GCD of two numbers
+int GCD(int a, int b) {
+    if (b == 0)
+        return a;
+    return GCD(b, a % b);
+}
+
+// Function to calculate the LCM of two numbers
+int LCM(int a, int b) {
+    return (a * b) / GCD(a, b);
+}
+
+int main() {
+    // Given N & M
+    int N = 12, M = 9;
+  
+    // Function Call
+    int ans = LCM(N, M);
+  
+    printf("LCM of %d and %d is %d\n", N, M, ans);
+  
+    return 0;
+}
+
+Output
+36
