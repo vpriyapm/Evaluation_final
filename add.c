@@ -2,7 +2,7 @@
 
 int main() {
 
-    int num1, num2, sum, sub;
+    int num1, num2, sum, sub=5;
 
     int num, num2,num3, sum,result;
 
